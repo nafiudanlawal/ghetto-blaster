@@ -1,0 +1,14 @@
+{
+  "name": "ghetto_blaster_backend",
+  "version": "1.0.0",
+  "description": "Backend for Ghetto Blaster App for auth and fetches from deezer API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nafiu Lawal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
