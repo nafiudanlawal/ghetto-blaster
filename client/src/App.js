@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.scss';
+import LandingPgae from './pages/landing';
+import MusicPlayer from './pages/login';
+let user = false;
 
 function App() {
-  return (
-    <div className="App">
-      
-      <header className="App-header">
-      </header>
-    </div>
-  );
+	if (user) {
+		return (<MusicPlayer />);
+	} else {
+		return (<LandingPgae />);
+	}
 }
 
 export default App;
