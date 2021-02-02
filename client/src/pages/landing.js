@@ -24,6 +24,7 @@ function Home() {
                             <div className="Body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
                             </div>
+                            <a href="#" className="btn-primary">Get Started</a>
                         </div>
                     </div>
                     <div className="Right">
@@ -45,6 +46,7 @@ function Home() {
                         <p>Find all your best music in one place. Find new music , classic music, live streams, album premieres, live studio sessions and interviews.</p>
                     </div>
                 </div>
+                
             </section>
             <section className="Bottom-section">
             <p>Landing page Here</p>
